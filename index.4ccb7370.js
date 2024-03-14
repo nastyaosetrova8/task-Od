@@ -1,0 +1,2 @@
+!function(){var o={googleImage:document.querySelector("#google-img"),oddityLink:document.querySelector("#oddity-link"),oddityIcon:document.querySelector("#oddity-icon"),changeLogoBtn:document.querySelector(".change-logo-btn")};o.changeLogoBtn.addEventListener("click",(function(){o.googleImage.style.display="none",o.oddityLink.style.display="block",o.oddityIcon.style.display="block"}))}();
+//# sourceMappingURL=index.4ccb7370.js.map
