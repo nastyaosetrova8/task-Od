@@ -1,11 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="link" href="./index.html">Gmail</a>
+          <a
+            class="link"
+            href="https://www.google.com/imghp?hl=uk&authuser=0&ogbl"
+            >Зображення</a
+          >
+        </nav>
+
+        <button class="button-menu" type="button">
+          <svg
+            class="menu-open-icon"
+            aria-label="google menu"
+            width="24"
+            height="24"
+            fill="#5f6267"
+          >
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+
+        <button class="button-entrance" type="button">Увійти</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="brand-section">
+        <h1 class="page-title vissually-hidden">Google</h1>
+
+        <div class="logo-img-wrappwer">
+          <img
+            id="google-img"
+            class="google-logo-img"
+            src="./images/googlelogo.png"
+            alt="Google logo"
+          />
+        </div>
+
+        <a id="oddity-link" class="oddity-link" href="https://www.oddity.com/">
+          <svg
+            id="oddity-icon"
+            class="menu-open-icon"
+            aria-label="Oddity link"
+            width="272"
+            height="92"
+            fill="#5f6267"
+          >
+            <use href="./images/icons.svg#oddity"></use>
+          </svg>
+        </a>
+
+        <form class="search-form" id="search-form">
+          <div class="input-wrapper">
+            <input type="text" name="searchQuery" class="search-input" />
+
+            <svg class="icon-search" width="20" height="20" fill="#5f6267">
+              <use href="./images/icons.svg#search"></use>
+            </svg>
+
+            <ul class="icons-right-search-list">
+              <li class="icon-search-item">
+                <a href="" class="icon-search-link keyboard">
+                  <svg width="20" height="26">
+                    <use href="./images/icons.svg#keyboard"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="icon-search-item">
+                <a href="" class="icon-search-link">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#microphone"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="icon-search-item">
+                <a href="" class="icon-search-link">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#camera"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="form-btns-wrapper">
+            <button type="submit" class="form-btn">Пошук Google</button>
+            <button type="button" class="form-btn change-logo-btn">
+              Мені пощастить
+            </button>
+          </div>
+        </form>
+
+        <div class="language-option-wrapper">
+          <p>Мова Google:&nbsp;</p>
+          <a class="language-link" href="https://www.google.com/">English</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="container footer-container">
+        <div class="footer-location-wrapper">
+          <p class="country-location">Україна</p>
+        </div>
+
+        <div class="footer-list-links-wrapper">
+          <ul class="footer-list-links">
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link"> Про Google </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link"> Реклама </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link"> Для бізнесу </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link"> Як працює пошук </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list-links">
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link"> Конфіденційність </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link"> Умови </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="" class="footer-list-link"> Налаштування </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>
